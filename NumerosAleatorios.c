@@ -3,13 +3,14 @@
 #include <time.h>
 
 int main(){
-    srand((unsigned)(time(NULL)));
 
-    int aleatorio = rand() % 10;
+  srand((unsigned)(time(NULL)));
 
-    printf("%d\n", aleatorio);
+  int aleatorio = rand() % 10;
 
-    int aleatoriob = (rand() % 10) + 4;
-    printf("%d\n", aleatoriob);
+  printf("%d\n", aleatorio);
+
+  int aleatoriob = (rand() % 10) + 4;
+  printf("%d\n", aleatoriob);
   return 0;
 }
