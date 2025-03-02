@@ -3,15 +3,15 @@
 
 int main(){
 
-char str[100];
+char str[10];
 
+//j,o,a,o,_,_,_,_,_,_
 printf("Digite uma frase:\n");
 
- //limpar buuf
-setbuf(stdin, 0);
-//inserir palvra
+setbuf(stdin,0);
+
 fgets(str,100,stdin);
-//limpar os espaços não usados
+
 str[strlen(str)-1] = '\0';
 
 printf("%s",str);

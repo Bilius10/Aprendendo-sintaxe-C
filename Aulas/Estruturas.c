@@ -4,7 +4,6 @@
 struct st {
     unsigned char id;
     unsigned int numero;
-
   };
 
 int main(){
